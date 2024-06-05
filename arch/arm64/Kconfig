@@ -1592,5 +1592,3 @@ endif
 source "lib/Kconfig"
 
 source "techpack/Kconfig"
-
-source "docker/Kconfig"
