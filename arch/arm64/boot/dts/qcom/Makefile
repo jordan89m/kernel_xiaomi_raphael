@@ -4,7 +4,7 @@ ifeq ($(CONFIG_MACH_XIAOMI_RAPHAEL),y)
 dtbo-$(CONFIG_MACH_XIAOMI_RAPHAEL) += \
 		raphael-sm8150-overlay.dtbo
 
-raphael-sm8150-overlay.dtbo-base := sm8150-v2.dtb
+raphael-sm8150-overlay.dtbo-base := sm8150-xiaomi-raphael.dtb
 endif
 endif
 else
